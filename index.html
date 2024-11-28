@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div class="navbar">
+        <header class="d-flex justify-content-center py-3 head">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+    </div>
+    <!--Home Section-->
+    <div class="px-4 py-5 my-5 text-center" id="home">
+        <img class="d-block mx-auto mb-4 image" src="./images/self_image.jpg" alt="" width="72" height="57">
+        <h1 class="text display-5 fw-bold ">Devansh Mittal</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4 text">Welcome to my portfolio website. I'm a web developer.</p>
+        </div>
+        <div class="row row-cols-1 mt-4 row-cols-md-4 gap-3 mb-3 ms-4 me-4 justify-content-center gap-lg-5">
+            <div class="first box">
+                <img src="./images/assets/icon1.svg" class="icon" height="100" alt=""> <h3>Responsive</h3> 
+                <p>My layouts will work on any device, big or small.</p>
+            </div>
+            <div class="second box">
+                <img src="./images/assets/icon2.png" class="icon" height="100" alt=""> <h3>Fast</h3> 
+                <p>Fast load times and lag free interaction, my highest priority.</p>
+            </div>
+            <div class="third box">
+                <img src="./images/assets/icon3.png" class="icon" height="100" alt=""> <h3>Dynamic</h3> 
+                <p>Websites don't have to be static, I love making pages come to life.</p>
+            </div>
+        </div>
+    </div>
+    <hr style="border: 2px solid white;">
+    <!--Project Section-->
+    <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">B-TECH (2024-2028)</h6>
+                        <p class="mb-0 opacity-75">Currently persuing B.Tech from KIET Group of Institutions in CSE(AIML).</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">Pre-University Education/12 Class (2024)</h6>
+                        <p class="mb-0 opacity-75">Successfully completed my 12th class from Heritage Academy, Modingar in 2024</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">Secondary Education/10 Class (2022)</h6>
+                        <p class="mb-0 opacity-75">Successfully completed my 12th class from Heritage Academy, Modingar in 2024</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <hr style="border: 2px solid white;">
+    <!--Project Section-->
+    <h2 class="text2">SKILLS</h2>
+    <div class="d-flex gap-2 justify-content-center py-5">
+        <span class="badge bg-primary-subtle border border-primary-subtle text-primary-emphasis rounded-pill">HTML</span>
+        <span class="badge bg-secondary-subtle border border-secondary-subtle text-secondary-emphasis rounded-pill">CSS</span>
+        <span class="badge bg-success-subtle border border-success-subtle text-success-emphasis rounded-pill">JAVASCRIPT</span>
+        <span class="badge bg-danger-subtle border border-danger-subtle text-danger-emphasis rounded-pill">C++</span>
+        <span class="badge bg-warning-subtle border border-warning-subtle text-warning-emphasis rounded-pill">C</span>
+        <span class="badge bg-info-subtle border border-info-subtle text-info-emphasis rounded-pill">PYTHON</span>
+        <span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">SQL</span>
+      </div>
+    <!--Project Section-->
+    <div class="row projects" id="projects">
+        <h2 class="text2">PROJECTS</h2>
+        <div class="col-lg-4 box2">
+            <img  class="round" src="./images/amazone.png">
+            <h2 class="fw-normal">Amazon Clone</h2>
+            <p>Developed a non-responsive Amazon clone website ,clean and structured code, showcasing expertise in front-end design and layout replication.</p>
+            <p><a class="btn btn-secondary" href="http://127.0.0.1:3002/index.html" target="_blank">View details »</a></p>
+        </div>
+        <div class="col-lg-4 box2">
+            <img  class="round" src="./images/tindog.png">
+            <h2 class="fw-normal">Tindog Project</h2>
+            <p>Created Tindog, a non-responsive web application for dog enthusiasts, featuring swipe-based matching and user profiles, showcasing clean design and layout replication.</p>
+            <p><a class="btn btn-secondary" href="http://127.0.0.1:3000/11.3 TinDog Project/index.html" target="_blank" >View details »</a></p>
+        </div>
+        <div class="col-lg-4 box2">
+            <img  class="round" src="./images/portfolio.png">
+            <h2 class="fw-normal">Portfolio Website</h2>
+            <p>Designed and developed a non-responsive portfolio website, featuring a clean layout to showcase projects, skills, and contact information effectively.</p>
+            <p><a class="btn btn-secondary" href="http://127.0.0.1:3000/CAPSTONE_2/index.hml" target="_blank">View details »</a></p>
+        </div>
+    </div>
+    <!--Contact Section-->
+    <section id="contact" class="contact-section">
+        <div class="container2">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch with me, please feel free to drop a message below.</p>
+            
+            <form action="submit_form.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

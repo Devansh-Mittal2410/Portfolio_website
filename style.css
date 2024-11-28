@@ -1,0 +1,134 @@
+body{
+    background-color: #006A67;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+    background-color: white;
+}
+
+.navbar header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Home Section*/
+
+.image{
+    height: 200px;
+    width: 150px;
+    border-radius: 200px;
+    border: solid 5px white;
+}
+
+.text{
+    color:white;
+}
+
+.box{
+    border: solid 3px;
+    border-radius: 20px;
+    background-color: floralwhite;
+}
+
+.box img{
+    padding-top: 10px;
+}
+
+/*Project Section*/
+.projects{
+    padding-top: 20px;
+    background-color: blanchedalmond;
+    
+}
+
+.box2{
+    padding-left: 50px;
+}
+
+.text2{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.round{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: solid 5px black;
+}
+
+.btn{
+    background-color: #DE8F5F;
+    color: black;
+}
+
+/*contact me section*/
+
+.container {
+    width: 100%;
+    background-color: rgb(252, 200, 122);
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.contact-section {
+    padding: 50px 0;
+    background-color:rgb(255, 220, 166);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #165ba1;
+}
